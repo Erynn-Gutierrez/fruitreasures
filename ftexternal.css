@@ -1,0 +1,69 @@
+html, body{
+    object-fit: cover;
+    margin: 0;
+}
+
+body {
+    padding-top: 7.5em;
+    background-color: rgb(226, 253, 167);
+    color:#499B97;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+
+nav {
+    background-color: #DCFDF2;
+}
+
+.nav-link { color: #499B97;}
+
+
+.navbar-brand {
+    position: relative;
+    width:300px;
+    left: 15px;
+    background-size: contain;
+}
+
+.navbar-brand img {margin-bottom: -10px;}
+
+.navbar-nav {
+  font-size: 20pt;
+  padding-top: 2.5em;
+  padding-right: 1.5em;
+}
+
+.nav-link:hover {
+    color: #28734B;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #499B97;
+    text-decoration:underline;
+  }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #104432;
+    color: white;
+    float: bottom;
+} 
+
+ul.footer {
+    list-style-type: none; 
+    text-align: center;
+    padding: 2%;
+}
+ul.footer li {
+    display: inline-block; 
+    padding: 0 30px;
+}
+
+ul.nav li{padding: 0 10 px}
+
+a {
+    text-decoration: none; 
+    color: White; 
+    font-size:24px;
+}
